@@ -1,0 +1,62 @@
+body {
+  margin: 10px;
+  background-color: #000084;
+  color: #bbb;
+  font-family: "more_perfect_dos_vgaregular", "Courier New", monospace;
+  font-size: 20px;
+  height: 90vh;
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.gif-container {
+  width: 50%;
+  height: 0;
+  padding-bottom: 75%;
+  position: relative;
+}
+.gif-inner {
+  position: absolute;
+}
+
+.head404 {
+  margin: 30px auto;
+  display: flex;
+  width: 100%;
+}
+
+.head404 span {
+  background-color: #bbb;
+  color: #000084;
+  margin: 0 auto;
+  padding: 10px 40px;
+  box-shadow: 15px 15px 0 rgb(0, 0, 0);
+}
+.body404 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px auto;
+}
+.body404 span{
+  margin: 10px 0;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);;
+}
+.tilt{
+  animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText {
+  0% {
+      opacity: 0;
+  }
+  
+  49% {
+      opacity: 0;
+  }
+  
+  50% {
+      opacity: 1;
+  }
+}
