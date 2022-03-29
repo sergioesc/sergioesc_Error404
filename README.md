@@ -1,7 +1,7 @@
 # About the project
 A simple and creative page where we create a 404 error, in case of erroneous or non-existent requests to the server.
 
-# Build with:
+# Build width:
 * React.js
 
 # Getting Started with Create React App
